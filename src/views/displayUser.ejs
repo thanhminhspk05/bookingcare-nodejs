@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>User Infomation</title>
+        <style>
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            td,
+            th {
+                border: 1px solid #5c4e4e;
+                text-align: left;
+                padding: 8px;
+            }
+
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            }
+
+            th:last-child {
+                width: 100px;
+            }
+
+
+            a {
+                color: #000;
+                text-decoration: none;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <h2>User Infomation</h2>
+
+        <table>
+            <tr>
+                <th>Email</th>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Addres</th>
+                <th>Actions</th>
+            </tr>
+            <% for(let i=0; i < dataTable.length; i++) { %>
+                <tr>
+                    <td><%= dataTable[i].email %></td>
+                    <td><%= dataTable[i].firstName %></td>
+                    <td><%= dataTable[i].lastName %></td>
+                    <td><%= dataTable[i].address %></td>
+                    <td>
+                        <button>
+                            <a href="/edit-user?id=<%= dataTable[i].id%>" type="button" class="btn btn-edit">Edit</a>
+                        </button>
+                        <button>
+                            <a href="/delete-user?id=<%= dataTable[i].id%>" type="button" class="btn btn-delete">Delete</a>
+                        </button>
+                    </td>
+                </tr>
+            <% } %>
+            </tr>
+        </table>
+        <script src="../services/CRUDService.js"></script>
+    </body>
+</html>
