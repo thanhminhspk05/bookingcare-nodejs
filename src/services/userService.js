@@ -69,7 +69,7 @@ let checkUserPasswordValid = (userPassword) => {
     let re = {
         capital: /[A-Z]/,
         digit: /[0-9]/,
-        full: /^[A-Za-z][A-Za-z0-9]{8,24}$/,
+        full: /^[A-Za-z][A-Za-z0-9]{7,24}$/,
     };
     return re.capital.test(userPassword) && re.digit.test(userPassword) && re.full.test(userPassword);
 };
@@ -151,8 +151,8 @@ let createNewUser = (data) => {
                     firstName: data.firstName,
                     lastName: data.lastName,
                     address: data.address,
-                    phonenumber: data.phonenumber,
-                    gender: data.gender === '1' ? true : false,
+                    phone: data.phone,
+                    gender: data.gender,
                     roleId: data.roleId,
                 });
             }
