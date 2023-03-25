@@ -10,10 +10,10 @@ let handleUserLogin = (email, password) => {
             let isExist = await checkUserEmailExist(email);
             if (isExist) {
                 let user = await db.User.findOne({
-                    attributes: ['email', 'password', 'firstName', 'lastName', 'roleId'],
                     where: { email: email },
                     raw: true,
                 });
+                console.log(user);
                 if (user) {
                     // compare password
                     let check = await bcrypt.compareSync(password, user.password);
@@ -255,4 +255,5 @@ module.exports = {
     deleteUser,
     editUser,
     getAllCodeService,
+    hashUserPassword,
 };

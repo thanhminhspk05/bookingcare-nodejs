@@ -27,12 +27,15 @@ module.exports = {
                 type: Sequelize.STRING,
             },
             gender: {
-                type: Sequelize.TEXT,
-            },
-            image: {
                 type: Sequelize.STRING,
             },
             roleId: {
+                type: Sequelize.STRING,
+            },
+            statusHealth: {
+                type: Sequelize.STRING,
+            },
+            image: {
                 type: Sequelize.STRING,
             },
             positionId: {
