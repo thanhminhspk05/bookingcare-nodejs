@@ -23,6 +23,9 @@ module.exports = {
             address: {
                 type: Sequelize.STRING,
             },
+            birthday: {
+                type: Sequelize.STRING,
+            },
             phone: {
                 type: Sequelize.STRING,
             },
@@ -35,10 +38,10 @@ module.exports = {
             statusHealth: {
                 type: Sequelize.STRING,
             },
-            image: {
+            diagnose: {
                 type: Sequelize.STRING,
             },
-            positionId: {
+            prescription: {
                 type: Sequelize.STRING,
             },
             createdAt: {

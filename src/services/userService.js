@@ -114,6 +114,13 @@ let hashUserPassword = (password) => {
     });
 };
 
+let formatDate = (date) => {
+    let parts = date.split('-');
+    return `${parts[2]}/${parts[1]}/${parts[0]}`;
+};
+
+formatDate('22-04-20');
+
 let createNewUser = (data) => {
     return new Promise(async (resolve, reject) => {
         try {
@@ -145,6 +152,7 @@ let createNewUser = (data) => {
 
             if (!checkEmailExist && checkEmailValid && checkPasswordValid) {
                 let hashPasswordFromBcrypt = await hashUserPassword(data.password);
+                let birthday = formatDate(data.birthday);
                 await db.User.create({
                     email: data.email,
                     password: hashPasswordFromBcrypt,
@@ -152,8 +160,12 @@ let createNewUser = (data) => {
                     lastName: data.lastName,
                     address: data.address,
                     phone: data.phone,
+                    birthday: birthday,
                     gender: data.gender,
                     roleId: data.roleId,
+                    statusHealth: data.statusHealth,
+                    diagnose: data.diagnose,
+                    prescription: data.prescription,
                 });
             }
             resolve({

@@ -16,6 +16,7 @@ let createNewUser = async (data) => {
                 phone: data.phone,
                 gender: data.gender,
                 roleId: data.roleId,
+                prescription: data.prescription,
             });
             resolve();
         } catch (e) {
