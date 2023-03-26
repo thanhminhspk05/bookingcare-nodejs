@@ -115,11 +115,11 @@ let hashUserPassword = (password) => {
 };
 
 let formatDate = (date) => {
-    let parts = date.split('-');
-    return `${parts[2]}/${parts[1]}/${parts[0]}`;
+    if (date) {
+        let parts = date.split('-');
+        return `${parts[2]}/${parts[1]}/${parts[0]}`;
+    }
 };
-
-formatDate('22-04-20');
 
 let createNewUser = (data) => {
     return new Promise(async (resolve, reject) => {
@@ -197,6 +197,12 @@ let editUser = (data) => {
                     firstName: data.firstName,
                     lastName: data.lastName,
                     address: data.address,
+                    phone: data.phone,
+                    birthday: data.birthday,
+                    gender: data.gender,
+                    statusHealth: data.statusHealth,
+                    diagnose: data.diagnose,
+                    prescription: data.prescription,
                 },
                 {
                     where: { id: data.id },
