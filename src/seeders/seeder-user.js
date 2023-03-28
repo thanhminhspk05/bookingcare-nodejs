@@ -11,7 +11,7 @@ module.exports = {
                 birthday: '27/02/1965',
                 phone: '5837725965',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
-                roleId: 'admin',
+                roleId: 'Admin',
                 email: 'thanhminhspk01@gmail.com',
             },
             {
@@ -25,7 +25,7 @@ module.exports = {
                 birthday: '05/06/1984',
                 phone: '9405498090',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
-                roleId: 'admin',
+                roleId: 'Admin',
                 email: 'thanhminhspk02@gmail.com',
             },
             {
@@ -36,7 +36,7 @@ module.exports = {
                 birthday: '10/06/1961',
                 phone: '9808286236',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
-                roleId: 'admin',
+                roleId: 'Admin',
                 email: 'thanhminhspk03@gmail.com',
             },
             {
@@ -47,7 +47,7 @@ module.exports = {
                 birthday: '06/11/2016',
                 phone: '7032920360',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
-                roleId: 'admin',
+                roleId: 'Admin',
                 email: 'thanhminhspk04@gmail.com',
             },
             {
@@ -58,7 +58,7 @@ module.exports = {
                 birthday: '19/02/1977',
                 phone: '8709294662',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
-                roleId: 'admin',
+                roleId: 'Admin',
                 email: 'thanhminhspk05@gmail.com',
             },
             {
@@ -69,7 +69,7 @@ module.exports = {
                 birthday: '07/01/1958',
                 phone: '7452407683',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
-                roleId: 'doctor',
+                roleId: 'Doctor',
                 email: 'thanhminhspk11@gmail.com',
             },
             {
@@ -80,7 +80,7 @@ module.exports = {
                 birthday: '11/03/2019',
                 phone: '8039573618',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
-                roleId: 'doctor',
+                roleId: 'Doctor',
                 email: 'thanhminhspk12@gmail.com',
             },
             {
@@ -91,7 +91,7 @@ module.exports = {
                 birthday: '08/04/1978',
                 phone: '5783998381',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
-                roleId: 'doctor',
+                roleId: 'Doctor',
                 email: 'thanhminhspk13@gmail.com',
             },
             {
@@ -102,7 +102,7 @@ module.exports = {
                 birthday: '27/06/1989',
                 phone: '9076686585',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
-                roleId: 'doctor',
+                roleId: 'Doctor',
                 email: 'thanhminhspk14@gmail.com',
             },
             {
@@ -113,7 +113,7 @@ module.exports = {
                 birthday: '31/03/1963',
                 phone: '5181787293',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
-                roleId: 'doctor',
+                roleId: 'Doctor',
                 email: 'thanhminhspk15@gmail.com',
             },
             {
@@ -124,7 +124,7 @@ module.exports = {
                 birthday: '24/12/1965',
                 phone: '6454928825',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
-                roleId: 'patient',
+                roleId: 'Patient',
                 email: 'thanhminhspk21@gmail.com',
             },
             {
@@ -135,7 +135,7 @@ module.exports = {
                 birthday: '06/10/2012',
                 phone: '4891379441',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
-                roleId: 'patient',
+                roleId: 'Patient',
                 email: 'thanhminhspk22@gmail.com',
             },
             {
@@ -146,7 +146,7 @@ module.exports = {
                 birthday: '08/04/1943',
                 phone: '1255999021',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
-                roleId: 'patient',
+                roleId: 'Patient',
                 email: 'thanhminhspk23@gmail.com',
             },
             {
@@ -157,7 +157,7 @@ module.exports = {
                 birthday: '15/01/2013',
                 phone: '2048985661',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
-                roleId: 'patient',
+                roleId: 'Patient',
                 email: 'thanhminhspk24@gmail.com',
             },
             {
@@ -168,7 +168,7 @@ module.exports = {
                 birthday: '15/02/2006',
                 phone: '7861326713',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
-                roleId: 'patient',
+                roleId: 'Patient',
                 email: 'thanhminhspk25@gmail.com',
             },
         ]);

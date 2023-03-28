@@ -153,19 +153,21 @@ let createNewUser = (data) => {
             if (!checkEmailExist && checkEmailValid && checkPasswordValid) {
                 let hashPasswordFromBcrypt = await hashUserPassword(data.password);
                 let birthday = formatDate(data.birthday);
+                console.log(typeof data.gender);
+                console.log(typeof data.roleId);
                 await db.User.create({
                     email: data.email,
                     password: hashPasswordFromBcrypt,
-                    firstName: data.firstName,
-                    lastName: data.lastName,
-                    address: data.address,
+                    firstName: data.firstName[0].toUpperCase() + data.firstName.substring(1),
+                    lastName: data.lastName[0].toUpperCase() + data.lastName.substring(1),
+                    address: data.address[0].toUpperCase() + data.address.substring(1),
                     phone: data.phone,
                     birthday: birthday,
-                    gender: data.gender,
-                    roleId: data.roleId,
-                    statusHealth: data.statusHealth,
-                    diagnose: data.diagnose,
-                    prescription: data.prescription,
+                    gender: data.gender[0].toUpperCase() + data.gender.substring(1),
+                    roleId: data.roleId[0].toUpperCase() + data.roleId.substring(1),
+                    statusHealth: data.statusHealth[0].toUpperCase() + data.statusHealth.substring(1),
+                    diagnose: data.diagnose[0].toUpperCase() + data.diagnose.substring(1),
+                    prescription: data.prescription[0].toUpperCase() + data.prescription.substring(1),
                 });
             }
             resolve({
