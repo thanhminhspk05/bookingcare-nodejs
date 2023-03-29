@@ -154,6 +154,7 @@ let createNewUser = (data) => {
         try {
             // check if user already exists
             let checkEmailExist = await checkUserEmailExist(data.email);
+            let checkPhonelExist = await checkUserPhoneExist(data.phone);
             if (checkEmailExist === true) {
                 resolve({
                     errCode: 1,
@@ -178,7 +179,14 @@ let createNewUser = (data) => {
                 });
             }
 
-            if (!checkEmailExist && checkEmailValid && checkPasswordValid) {
+            if (checkPhonelExist === true) {
+                resolve({
+                    errCode: 4,
+                    errMessage: 'Phone number already exists. Try another one!',
+                });
+            }
+
+            if (!checkEmailExist && !checkPhonelExist && checkEmailValid && checkPasswordValid) {
                 let hashPasswordFromBcrypt = await hashUserPassword(data.password);
                 let birthday = formatDate(data.birthday);
 
@@ -275,7 +283,6 @@ let getAllCodeService = (typeInput) => {
         try {
             if (typeInput) {
                 let response = {};
-                console.log('dddddd');
                 let allcode = await db.Allcode.findAll({
                     where: { type: typeInput },
                 });
