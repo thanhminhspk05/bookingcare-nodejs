@@ -154,11 +154,10 @@ let createNewUser = (data) => {
         try {
             // check if user already exists
             let checkEmailExist = await checkUserEmailExist(data.email);
-            let checkPhoneExist = await checkUserEmailExist(data.phone);
-            if (checkEmailExist === true || checkPhoneExist === true) {
+            if (checkEmailExist === true) {
                 resolve({
                     errCode: 1,
-                    errMessage: 'Email already exists. Try another email!',
+                    errMessage: 'Email already exists. Try another one!',
                 });
             }
 
@@ -182,8 +181,7 @@ let createNewUser = (data) => {
             if (!checkEmailExist && checkEmailValid && checkPasswordValid) {
                 let hashPasswordFromBcrypt = await hashUserPassword(data.password);
                 let birthday = formatDate(data.birthday);
-                console.log(typeof data.gender);
-                console.log(typeof data.roleId);
+
                 await db.User.create({
                     email: data.email,
                     password: hashPasswordFromBcrypt,
@@ -194,9 +192,9 @@ let createNewUser = (data) => {
                     birthday: birthday,
                     gender: data.gender[0].toUpperCase() + data.gender.substring(1),
                     roleId: data.roleId[0].toUpperCase() + data.roleId.substring(1),
-                    statusHealth: data.statusHealth[0].toUpperCase() + data.statusHealth.substring(1),
-                    diagnose: data.diagnose[0].toUpperCase() + data.diagnose.substring(1),
-                    prescription: data.prescription[0].toUpperCase() + data.prescription.substring(1),
+                    statusHealth: data.statusHealth,
+                    diagnose: data.diagnose,
+                    prescription: data.prescription,
                 });
             }
             resolve({
