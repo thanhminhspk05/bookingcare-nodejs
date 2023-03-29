@@ -3,17 +3,62 @@ import bcrypt from 'bcryptjs';
 
 let salt = bcrypt.genSaltSync(10);
 
-let handleUserLogin = (email, password) => {
+let checkUserEmailExist = (userEmail) => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            let user = await db.User.findOne({
+                where: { email: userEmail },
+            });
+            if (user) {
+                resolve(true);
+            } else {
+                resolve(false);
+            }
+        } catch (e) {
+            reject(e);
+        }
+    });
+};
+
+let checkUserPhoneExist = (userPhone) => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            let user = await db.User.findOne({
+                where: { phone: userPhone },
+            });
+            if (user) {
+                resolve(true);
+            } else {
+                resolve(false);
+            }
+        } catch (e) {
+            reject(e);
+        }
+    });
+};
+
+let handleUserLogin = (emailOrPhone, password) => {
     return new Promise(async (resolve, reject) => {
         try {
             let userData = {};
-            let isExist = await checkUserEmailExist(email);
-            if (isExist) {
-                let user = await db.User.findOne({
-                    where: { email: email },
-                    raw: true,
-                });
-                console.log(user);
+            let user;
+            let isExistEmail = await checkUserEmailExist(emailOrPhone);
+            let isExistPhone = await checkUserPhoneExist(emailOrPhone);
+            if (isExistEmail || isExistPhone) {
+                if (isExistEmail) {
+                    user = await db.User.findOne({
+                        where: { email: emailOrPhone },
+                        raw: true,
+                    });
+                }
+
+                if (isExistPhone) {
+                    user = await db.User.findOne({
+                        where: { phone: emailOrPhone },
+                        raw: true,
+                    });
+                }
+
                 if (user) {
                     // compare password
                     let check = await bcrypt.compareSync(password, user.password);
@@ -33,27 +78,10 @@ let handleUserLogin = (email, password) => {
             } else {
                 // email not exist
                 userData.errCode = 2;
-                userData.errMessage = 'Email is not exist.';
+                userData.errMessage = 'Account is not exist.';
                 userData.user = {};
             }
             resolve(userData);
-        } catch (e) {
-            reject(e);
-        }
-    });
-};
-
-let checkUserEmailExist = (userEmail) => {
-    return new Promise(async (resolve, reject) => {
-        try {
-            let user = await db.User.findOne({
-                where: { email: userEmail },
-            });
-            if (user) {
-                resolve(true);
-            } else {
-                resolve(false);
-            }
         } catch (e) {
             reject(e);
         }
@@ -126,7 +154,8 @@ let createNewUser = (data) => {
         try {
             // check if user already exists
             let checkEmailExist = await checkUserEmailExist(data.email);
-            if (checkEmailExist === true) {
+            let checkPhoneExist = await checkUserEmailExist(data.phone);
+            if (checkEmailExist === true || checkPhoneExist === true) {
                 resolve({
                     errCode: 1,
                     errMessage: 'Email already exists. Try another email!',
