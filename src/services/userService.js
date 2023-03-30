@@ -175,7 +175,7 @@ let createNewUser = (data) => {
             if (checkPasswordValid === false) {
                 resolve({
                     errCode: 3,
-                    errMessage: 'Use 8-24 characters and combinations of letters, numbers, capitalize!',
+                    errMessage: 'Use 8-24 characters and combinations of letters, capitalize and numbers !',
                 });
             }
 
