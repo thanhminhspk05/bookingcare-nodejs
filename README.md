@@ -10,7 +10,7 @@ Runs the app in the development mode.<br>
 Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
 ### Front-end: ReactJS 17.0.2
-Go to https://github.com/thanhminhspk05/react-finalproject and follow the instructions
+Go to https://github.com/thanhminhspk05/bookingcare-reactjs and follow the instructions
 
 ### Install RDBSM (Relational Database Management System)
 Software: XAMPP (Link download: https://www.apachefriends.org/download.html) 
