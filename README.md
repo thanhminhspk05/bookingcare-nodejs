@@ -27,17 +27,13 @@ Create data users (seeder) in users table
 
 #### Account Admin:
 thanhminhspk01@gmail.com
-thanhminhspk02@gmail.com
-thanhminhspk03@gmail.com
 
 #### Account Doctor:
 thanhminhspk11@gmail.com
-thanhminhspk12@gmail.com
-thanhminhspk13@gmail.com
 
 #### Account Patient:
 thanhminhspk21@gmail.com
-thanhminhspk22@gmail.com
-thanhminhspk23@gmail.com
 
 #### All accounts are set password is: Tm123456
+See more test account on database
+http://localhost/phpmyadmin/index.php?route=/sql&pos=0&db=bookingcare&table=users
