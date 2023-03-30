@@ -16,5 +16,27 @@ Go to https://github.com/thanhminhspk05/bookingcare-reactjs and follow the instr
 Software: XAMPP (Link download: https://www.apachefriends.org/download.html) 
 Click START action button on Apache and MySQL service
 Open http://localhost/phpmyadmin/index.php to view it in the browser.
+Create database name: bookingcare
 
+### `npx sequelize-cli db:migrate`
+Create tables database
+
+### `npx sequelize-cli db:seed:all`
+Create data users (seeder) in users table
+All accounts are set password is: Tm123456
+
+### Account Admin:
+thanhminhspk01@gmail.com
+thanhminhspk02@gmail.com
+thanhminhspk03@gmail.com
+
+### Account Doctor:
+thanhminhspk11@gmail.com
+thanhminhspk12@gmail.com
+thanhminhspk13@gmail.com
+
+### Account Patient:
+thanhminhspk21@gmail.com
+thanhminhspk22@gmail.com
+thanhminhspk23@gmail.com
 
