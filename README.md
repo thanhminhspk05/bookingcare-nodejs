@@ -18,10 +18,10 @@ Click START action button on Apache and MySQL service
 Open http://localhost/phpmyadmin/index.php to view it in the browser.
 Create database name: bookingcare
 
-### `npx sequelize-cli db:migrate`
+#### `npx sequelize-cli db:migrate`
 Create tables database
 
-### `npx sequelize-cli db:seed:all`
+#### `npx sequelize-cli db:seed:all`
 Create data users (seeder) in users table
 All accounts are set password is: Tm123456
 
