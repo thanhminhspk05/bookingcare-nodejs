@@ -29,11 +29,10 @@ Go to https://github.com/thanhminhspk05/bookingcare-reactjs and follow the instr
 
 ### Install RDBSM (Relational Database Management System)
 
-Software: XAMPP (Link download: https://www.apachefriends.org/download.html)
-Click START action button on Apache and MySQL service
-Open http://localhost/phpmyadmin/index.php to view it in the browser.
-
-#### Create database name: bookingcare
+-   Software: XAMPP (Link download: https://www.apachefriends.org/download.html)
+-   Click START action button on Apache and MySQL service.
+-   Open http://localhost/phpmyadmin/index.php to view it in the browser.
+-   Create database name: `bookingcare`
 
 #### `npx sequelize-cli db:migrate`
 
@@ -55,7 +54,7 @@ thanhminhspk11@gmail.com
 
 thanhminhspk21@gmail.com
 
-#### All account are set password is: Tm123456
+#### All account are set password is: `Tm123456`
 
 See more test account on database:
 http://localhost/phpmyadmin/index.php?route=/sql&pos=0&db=bookingcare&table=users
