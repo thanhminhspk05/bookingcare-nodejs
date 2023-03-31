@@ -56,7 +56,7 @@ thanhminhspk11@gmail.com
 
 thanhminhspk21@gmail.com
 
-#### All account are set password is: `Tm123456`
+#### All accounts set password: `Tm123456`
 
 See more test account on database:
 http://localhost/phpmyadmin/index.php?route=/sql&pos=0&db=bookingcare&table=users
