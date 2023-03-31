@@ -23,6 +23,8 @@ Download node_modules to install the necessary libraries
 Runs the app in the development mode.<br>
 Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
+#### Technologies: Bcryptjs , Express, Mysql2, Sequelize
+
 ### Front-end: ReactJS 17.0.2
 
 Go to https://github.com/thanhminhspk05/bookingcare-reactjs and follow the instructions
