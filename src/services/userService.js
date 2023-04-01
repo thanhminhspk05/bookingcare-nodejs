@@ -240,6 +240,7 @@ let editUser = (data) => {
                     statusHealth: data.statusHealth,
                     diagnose: data.diagnose,
                     prescription: data.prescription,
+                    done: data.done,
                 },
                 {
                     where: { id: data.id },

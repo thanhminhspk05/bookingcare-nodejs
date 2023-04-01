@@ -12,6 +12,7 @@ module.exports = {
                 phone: '5837725965',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
                 roleId: 'Admin',
+                done: false,
                 email: 'thanhminhspk01@gmail.com',
             },
             {
@@ -26,6 +27,7 @@ module.exports = {
                 phone: '9405498090',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
                 roleId: 'Admin',
+                done: false,
                 email: 'thanhminhspk02@gmail.com',
             },
             {
@@ -37,6 +39,7 @@ module.exports = {
                 phone: '9808286236',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
                 roleId: 'Admin',
+                done: false,
                 email: 'thanhminhspk03@gmail.com',
             },
             {
@@ -48,6 +51,7 @@ module.exports = {
                 phone: '7032920360',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
                 roleId: 'Admin',
+                done: false,
                 email: 'thanhminhspk04@gmail.com',
             },
             {
@@ -59,6 +63,7 @@ module.exports = {
                 phone: '8709294662',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
                 roleId: 'Admin',
+                done: false,
                 email: 'thanhminhspk05@gmail.com',
             },
             {
@@ -70,6 +75,7 @@ module.exports = {
                 phone: '7452407683',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
                 roleId: 'Doctor',
+                done: false,
                 email: 'thanhminhspk11@gmail.com',
             },
             {
@@ -81,6 +87,7 @@ module.exports = {
                 phone: '8039573618',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
                 roleId: 'Doctor',
+                done: false,
                 email: 'thanhminhspk12@gmail.com',
             },
             {
@@ -92,6 +99,7 @@ module.exports = {
                 phone: '5783998381',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
                 roleId: 'Doctor',
+                done: false,
                 email: 'thanhminhspk13@gmail.com',
             },
             {
@@ -103,6 +111,7 @@ module.exports = {
                 phone: '9076686585',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
                 roleId: 'Doctor',
+                done: false,
                 email: 'thanhminhspk14@gmail.com',
             },
             {
@@ -114,6 +123,7 @@ module.exports = {
                 phone: '5181787293',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
                 roleId: 'Doctor',
+                done: false,
                 email: 'thanhminhspk15@gmail.com',
             },
             {
@@ -125,6 +135,7 @@ module.exports = {
                 phone: '6454928825',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
                 roleId: 'Patient',
+                done: false,
                 email: 'thanhminhspk21@gmail.com',
             },
             {
@@ -136,6 +147,7 @@ module.exports = {
                 phone: '4891379441',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
                 roleId: 'Patient',
+                done: false,
                 email: 'thanhminhspk22@gmail.com',
             },
             {
@@ -147,6 +159,7 @@ module.exports = {
                 phone: '1255999021',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
                 roleId: 'Patient',
+                done: false,
                 email: 'thanhminhspk23@gmail.com',
             },
             {
@@ -158,6 +171,7 @@ module.exports = {
                 phone: '2048985661',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
                 roleId: 'Patient',
+                done: false,
                 email: 'thanhminhspk24@gmail.com',
             },
             {
@@ -169,6 +183,7 @@ module.exports = {
                 phone: '7861326713',
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
                 roleId: 'Patient',
+                done: false,
                 email: 'thanhminhspk25@gmail.com',
             },
 
@@ -184,6 +199,7 @@ module.exports = {
                 phone: '351 529 9344',
                 birthday: '31/10/1961',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -195,6 +211,7 @@ module.exports = {
                 phone: '972 868 5831',
                 birthday: '01/07/1985',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -206,6 +223,7 @@ module.exports = {
                 phone: '782 296 6103',
                 birthday: '14/07/1986',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -217,6 +235,7 @@ module.exports = {
                 phone: '999 680 5860',
                 birthday: '27/02/2014',
                 roleId: 'Admin',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -228,6 +247,7 @@ module.exports = {
                 phone: '694 895 9693',
                 birthday: '26/07/1961',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -239,6 +259,7 @@ module.exports = {
                 phone: '536 145 2357',
                 birthday: '21/12/1976',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -250,6 +271,7 @@ module.exports = {
                 phone: '207 944 6956',
                 birthday: '18/07/2020',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -261,6 +283,7 @@ module.exports = {
                 phone: '467 592 2124',
                 birthday: '15/06/1989',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -272,6 +295,7 @@ module.exports = {
                 phone: '552 753 1879',
                 birthday: '29/01/1968',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -283,6 +307,7 @@ module.exports = {
                 phone: '423 851 5286',
                 birthday: '25/08/2002',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -294,6 +319,7 @@ module.exports = {
                 phone: '147 972 5856',
                 birthday: '24/09/1991',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -305,6 +331,7 @@ module.exports = {
                 phone: '783 731 5039',
                 birthday: '22/01/1985',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -316,6 +343,7 @@ module.exports = {
                 phone: '540 413 0378',
                 birthday: '20/07/2013',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -327,6 +355,7 @@ module.exports = {
                 phone: '370 181 7554',
                 birthday: '18/12/2001',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -338,6 +367,7 @@ module.exports = {
                 phone: '973 729 8012',
                 birthday: '09/06/1965',
                 roleId: 'Admin',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -349,6 +379,7 @@ module.exports = {
                 phone: '481 360 1385',
                 birthday: '22/02/1978',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -360,6 +391,7 @@ module.exports = {
                 phone: '613 174 0666',
                 birthday: '18/02/1952',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -371,6 +403,7 @@ module.exports = {
                 phone: '497 341 5169',
                 birthday: '08/06/1998',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -382,6 +415,7 @@ module.exports = {
                 phone: '837 428 3306',
                 birthday: '03/02/2008',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -393,6 +427,7 @@ module.exports = {
                 phone: '900 117 4552',
                 birthday: '27/12/1986',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -404,6 +439,7 @@ module.exports = {
                 phone: '960 977 3329',
                 birthday: '09/07/1980',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -415,6 +451,7 @@ module.exports = {
                 phone: '824 297 6195',
                 birthday: '10/11/1976',
                 roleId: 'Male',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -426,6 +463,7 @@ module.exports = {
                 phone: '142 542 5718',
                 birthday: '27/12/2001',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -437,6 +475,7 @@ module.exports = {
                 phone: '638 513 7133',
                 birthday: '25/01/1977',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -448,6 +487,7 @@ module.exports = {
                 phone: '249 517 2303',
                 birthday: '26/11/1973',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -459,6 +499,7 @@ module.exports = {
                 phone: '797 864 9600',
                 birthday: '25/12/2021',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -470,6 +511,7 @@ module.exports = {
                 phone: '610 198 8983',
                 birthday: '29/07/1971',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -481,6 +523,7 @@ module.exports = {
                 phone: '234 320 3041',
                 birthday: '30/12/2022',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -492,6 +535,7 @@ module.exports = {
                 phone: '180 888 3056',
                 birthday: '04/11/2012',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -503,6 +547,7 @@ module.exports = {
                 phone: '570 665 8362',
                 birthday: '23/12/1982',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -514,6 +559,7 @@ module.exports = {
                 phone: '699 820 8652',
                 birthday: '20/10/1978',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -525,6 +571,7 @@ module.exports = {
                 phone: '555 841 5145',
                 birthday: '17/04/1951',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -536,6 +583,7 @@ module.exports = {
                 phone: '390 437 1248',
                 birthday: '04/04/1950',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -547,6 +595,7 @@ module.exports = {
                 phone: '720 899 7513',
                 birthday: '05/02/2018',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -558,6 +607,7 @@ module.exports = {
                 phone: '600 216 2284',
                 birthday: '10/01/2020',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -569,6 +619,7 @@ module.exports = {
                 phone: '767 459 4542',
                 birthday: '15/10/2013',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -580,6 +631,7 @@ module.exports = {
                 phone: '187 462 5134',
                 birthday: '09/01/1977',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -591,6 +643,7 @@ module.exports = {
                 phone: '101 895 3099',
                 birthday: '26/10/1983',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -602,6 +655,7 @@ module.exports = {
                 phone: '307 321 6013',
                 birthday: '11/06/1973',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -613,6 +667,7 @@ module.exports = {
                 phone: '272 482 7652',
                 birthday: '09/04/1994',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -624,6 +679,7 @@ module.exports = {
                 phone: '971 766 7829',
                 birthday: '17/01/1962',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -635,6 +691,7 @@ module.exports = {
                 phone: '827 542 7652',
                 birthday: '06/08/2016',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -646,6 +703,7 @@ module.exports = {
                 phone: '261 738 7411',
                 birthday: '20/11/1986',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -657,6 +715,7 @@ module.exports = {
                 phone: '659 749 2315',
                 birthday: '09/10/1950',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -668,6 +727,7 @@ module.exports = {
                 phone: '508 447 6162',
                 birthday: '24/07/1956',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -679,6 +739,7 @@ module.exports = {
                 phone: '840 674 5692',
                 birthday: '12/09/1995',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -690,6 +751,7 @@ module.exports = {
                 phone: '406 694 9155',
                 birthday: '29/12/1985',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -701,6 +763,7 @@ module.exports = {
                 phone: '515 436 9575',
                 birthday: '13/10/1959',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -712,6 +775,7 @@ module.exports = {
                 phone: '642 905 4670',
                 birthday: '04/08/1974',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -723,6 +787,7 @@ module.exports = {
                 phone: '511 590 5230',
                 birthday: '01/11/1973',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -734,6 +799,7 @@ module.exports = {
                 phone: '945 100 5539',
                 birthday: '21/05/1996',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -745,6 +811,7 @@ module.exports = {
                 phone: '450 439 6894',
                 birthday: '27/10/1999',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -756,6 +823,7 @@ module.exports = {
                 phone: '257 296 2416',
                 birthday: '01/08/2007',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -767,6 +835,7 @@ module.exports = {
                 phone: '463 222 1604',
                 birthday: '28/02/2005',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -778,6 +847,7 @@ module.exports = {
                 phone: '596 107 1992',
                 birthday: '05/10/1996',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -789,6 +859,7 @@ module.exports = {
                 phone: '398 814 2004',
                 birthday: '23/05/1990',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -800,6 +871,7 @@ module.exports = {
                 phone: '101 683 8555',
                 birthday: '13/09/1988',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -811,6 +883,7 @@ module.exports = {
                 phone: '831 705 6993',
                 birthday: '12/11/2005',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -822,6 +895,7 @@ module.exports = {
                 phone: '431 885 4755',
                 birthday: '09/12/2007',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -833,6 +907,7 @@ module.exports = {
                 phone: '987 352 5388',
                 birthday: '27/06/1966',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -844,6 +919,7 @@ module.exports = {
                 phone: '451 513 5457',
                 birthday: '20/04/2001',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -855,6 +931,7 @@ module.exports = {
                 phone: '199 423 9543',
                 birthday: '25/03/2005',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -866,6 +943,7 @@ module.exports = {
                 phone: '880 695 4159',
                 birthday: '08/10/2015',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -877,6 +955,7 @@ module.exports = {
                 phone: '825 663 6046',
                 birthday: '03/03/2020',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -888,6 +967,7 @@ module.exports = {
                 phone: '195 824 5592',
                 birthday: '03/01/1971',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -899,6 +979,7 @@ module.exports = {
                 phone: '789 931 8507',
                 birthday: '16/11/1991',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -910,6 +991,7 @@ module.exports = {
                 phone: '128 125 2434',
                 birthday: '20/11/1991',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -921,6 +1003,7 @@ module.exports = {
                 phone: '304 326 0470',
                 birthday: '20/07/1982',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -932,6 +1015,7 @@ module.exports = {
                 phone: '989 481 3884',
                 birthday: '01/09/1982',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -943,6 +1027,7 @@ module.exports = {
                 phone: '426 230 5376',
                 birthday: '19/11/2018',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -954,6 +1039,7 @@ module.exports = {
                 phone: '601 547 9805',
                 birthday: '08/01/1962',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -965,6 +1051,7 @@ module.exports = {
                 phone: '101 680 1860',
                 birthday: '20/06/1999',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -976,6 +1063,7 @@ module.exports = {
                 phone: '288 496 3047',
                 birthday: '17/07/1970',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -987,6 +1075,7 @@ module.exports = {
                 phone: '133 390 9823',
                 birthday: '06/12/1960',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -998,6 +1087,7 @@ module.exports = {
                 phone: '130 483 6044',
                 birthday: '08/09/1977',
                 roleId: 'Admin',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1009,6 +1099,7 @@ module.exports = {
                 phone: '972 473 9649',
                 birthday: '06/01/1974',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1020,6 +1111,7 @@ module.exports = {
                 phone: '862 816 5598',
                 birthday: '17/06/2016',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1031,6 +1123,7 @@ module.exports = {
                 phone: '512 994 3048',
                 birthday: '17/02/1983',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1042,6 +1135,7 @@ module.exports = {
                 phone: '972 808 1365',
                 birthday: '07/08/1984',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1053,6 +1147,7 @@ module.exports = {
                 phone: '846 319 9125',
                 birthday: '12/06/1969',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1064,6 +1159,7 @@ module.exports = {
                 phone: '236 676 8351',
                 birthday: '20/09/1991',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1075,6 +1171,7 @@ module.exports = {
                 phone: '924 544 7305',
                 birthday: '12/02/1965',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1086,6 +1183,7 @@ module.exports = {
                 phone: '604 225 1515',
                 birthday: '08/03/2018',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1097,6 +1195,7 @@ module.exports = {
                 phone: '155 520 8485',
                 birthday: '02/08/2008',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1108,6 +1207,7 @@ module.exports = {
                 phone: '969 370 2316',
                 birthday: '21/10/1977',
                 roleId: 'Male',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1119,6 +1219,7 @@ module.exports = {
                 phone: '840 968 9104',
                 birthday: '28/04/1955',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1130,6 +1231,7 @@ module.exports = {
                 phone: '133 128 8496',
                 birthday: '30/12/1989',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1141,6 +1243,7 @@ module.exports = {
                 phone: '277 205 0733',
                 birthday: '21/01/1962',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1152,6 +1255,7 @@ module.exports = {
                 phone: '139 512 5368',
                 birthday: '07/11/1951',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1163,6 +1267,7 @@ module.exports = {
                 phone: '145 450 8850',
                 birthday: '06/08/1978',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1174,6 +1279,7 @@ module.exports = {
                 phone: '692 640 4422',
                 birthday: '06/08/2021',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1185,6 +1291,7 @@ module.exports = {
                 phone: '771 137 4801',
                 birthday: '23/06/1998',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1196,6 +1303,7 @@ module.exports = {
                 phone: '445 346 6464',
                 birthday: '20/04/1971',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1207,6 +1315,7 @@ module.exports = {
                 phone: '395 134 8691',
                 birthday: '03/10/1956',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1218,6 +1327,7 @@ module.exports = {
                 phone: '451 991 3836',
                 birthday: '29/01/2005',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1229,6 +1339,7 @@ module.exports = {
                 phone: '119 374 1216',
                 birthday: '10/08/1961',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1240,6 +1351,7 @@ module.exports = {
                 phone: '778 442 1908',
                 birthday: '20/09/2017',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1251,6 +1363,7 @@ module.exports = {
                 phone: '922 986 4337',
                 birthday: '04/08/1990',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1262,6 +1375,7 @@ module.exports = {
                 phone: '370 868 6772',
                 birthday: '22/11/1961',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1273,6 +1387,7 @@ module.exports = {
                 phone: '394 890 6729',
                 birthday: '14/01/1988',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1284,6 +1399,7 @@ module.exports = {
                 phone: '739 189 6666',
                 birthday: '31/12/1991',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1295,6 +1411,7 @@ module.exports = {
                 phone: '201 435 9230',
                 birthday: '14/02/1975',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1306,6 +1423,7 @@ module.exports = {
                 phone: '717 974 5998',
                 birthday: '09/07/2009',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1317,6 +1435,7 @@ module.exports = {
                 phone: '925 111 0767',
                 birthday: '16/09/1981',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1328,6 +1447,7 @@ module.exports = {
                 phone: '523 855 2647',
                 birthday: '01/01/2002',
                 roleId: 'Patient',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1339,6 +1459,7 @@ module.exports = {
                 phone: '162 459 4559',
                 birthday: '25/07/1989',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1350,6 +1471,7 @@ module.exports = {
                 phone: '923 503 3104',
                 birthday: '30/05/2013',
                 roleId: 'Doctor',
+                done: false,
             },
             {
                 password: '$2a$10$VZE2sBB.Q9KgwHTdDP8niukBE4RDwQAOy0OJYW.a1ctlRzAowxBxW',
@@ -1361,6 +1483,7 @@ module.exports = {
                 phone: '216 580 1621',
                 birthday: '06/09/1968',
                 roleId: 'Doctor',
+                done: false,
             },
         ]);
     },

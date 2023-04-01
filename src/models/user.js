@@ -25,6 +25,7 @@ module.exports = (sequelize, DataTypes) => {
             statusHealth: DataTypes.STRING,
             diagnose: DataTypes.STRING,
             prescription: DataTypes.STRING,
+            done: DataTypes.BOOLEAN,
         },
         {
             sequelize,
